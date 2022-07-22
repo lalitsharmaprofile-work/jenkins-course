@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('node js project') {
     scm {
         git('https://github.com/lalitsharmaprofile-work/jenkins-course') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
